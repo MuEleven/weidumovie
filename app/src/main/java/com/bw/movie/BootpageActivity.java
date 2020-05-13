@@ -53,5 +53,4 @@ public class BootpageActivity extends AppCompatActivity {
     private void initView() {
         handler.sendEmptyMessageDelayed(0,1000);
     }
-
 }

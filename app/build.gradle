@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
 apply plugin: 'com.jakewharton.butterknife'
 android {
     compileSdkVersion 29
@@ -65,4 +67,9 @@ dependencies {
     implementation 'com.nineoldandroids:library:2.4.0'
     //xrecyclerview
     implementation 'com.jcodecraeer:xrecyclerview:1.5.9'
+    compile "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
 }

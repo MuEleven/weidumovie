@@ -48,7 +48,7 @@
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="电影故事"
+            android:text="个人信息"
             android:textColor="#000"
             android:layout_marginTop="@dimen/dp_34"
             android:layout_marginLeft="@dimen/dp_16"

@@ -44,8 +44,6 @@ public abstract class BaseFragment<p extends IBasePresenter> extends Fragment {
             isLoadData = true;
         }
     }
-
-
     protected abstract void initListener();
 
     protected abstract void initData();
@@ -64,7 +62,6 @@ public abstract class BaseFragment<p extends IBasePresenter> extends Fragment {
             initData();
         } else {
             isLoadData = false;
-
         }
     }
 
